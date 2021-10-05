@@ -1,6 +1,10 @@
 #ifndef _HOLBERTON_H_
 #define _HOLBERTON_H_
+#include <stdio.h>
+#include <stdlib.h>
 #include <stdarg.h>
+#include <limits.h>
+#include <unistd.h>
 /**
  * struct print - structure for printing various types
  * @t: type to print
