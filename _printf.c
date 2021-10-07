@@ -1,9 +1,3 @@
-/*
- * File: _printf.c
- * Auth: Yakob Mengistu
- *       Melaku Alehegn
- */
-
  #include "main.h"
 /**
 * _printf- Function that works like printf
