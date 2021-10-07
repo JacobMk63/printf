@@ -1,24 +1,29 @@
 .TH man 3 "5 October 2021" "0.10" "_printf man page"
 .SH NAME
-_printf \- formats and prints data
+.B _printf
+- A simple re-creation of the printf function
 .SH SYNOPSIS
-int _printf(const char *format, ...);
+To use this function the #include "main.h" header is needed.
 .SH DESCRIPTION
-_printf prints data according to the specified format. There are several formats according to the data type. These are:
-c
-s
-d
-i
-x
-X
-o
-b
-u
-
-.SH OPTIONS
-The nuseradd does not take any options.
+The _printf() function produces output according to a format which is described
+below. This function write its output to the stdout, the standard output stream.
+.SH USAGE
+To use _printf you have to use the following key characters preceeded by % symbol.
+.RS 3
+%c: To be used to print characters
+.RS 0
+%s: To be used to print strings
+.RS 0
+%d: To print integers of max and min size of an int type
+.RS 0
+%i: To print integers of max and min size of an int type
+.RS 0
+%b: To print a number in binary form
+.SH RETURN VALUES
+The _printf() function returns an integer representing the number of symbols
+printed not counting \\0 for the string.
 .SH SEE ALSO
-printf(1)
+.I printf(3)
 .SH BUGS
 No known bugs.
 .SH AUTHOR
