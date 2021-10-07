@@ -1,6 +1,7 @@
 /*
  * File: handlers.c
- * Auth: Yakob && Melaku
+ * Auth: Yakob Mengistu
+ *       Melaku Alehegn
  */
 
 #include "main.h"
